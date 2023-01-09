@@ -24,5 +24,7 @@ Qualquer pessoa pode entrar no site consultar, o veículo que esteja a sair, tod
     Permite um utilizador normal ou administrador fazer a gestão de links;    
  
   <h2> Baixar e executar o SGL </h2>
-    1. Executa o comando <b> git clone</b>   
+    1. Executa o comando <b> git clone https://github.com/LiquorMad/sgl.git</b> para baixar o SGL;
+    2. Na raiz do projeto baixado execute o camando <b>composer</b>;
+    
   
