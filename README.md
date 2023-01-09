@@ -24,5 +24,5 @@ Qualquer pessoa pode entrar no site consultar, o veículo que esteja a sair, tod
     Permite um utilizador normal ou administrador fazer a gestão de links;    
  
   <h2> Baixar e executar o SGL </h2>
-1.  
+    1. Executa o comando <b> git clone</b>   
   
