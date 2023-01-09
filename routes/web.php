@@ -6,11 +6,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\UserController;
- 
+ /*
 Route::get('/', function () {
     return view('welcome');
 });
-
+*/
 Route::group(['middleware'=>['AuthCheck']],function(){
 
     Route::resource('/login',LoginController::class);
