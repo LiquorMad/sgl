@@ -31,10 +31,10 @@ Qualquer pessoa pode entrar no site consultar, o veículo que esteja a sair, tod
         <li>4. Execute o comando <b>php artisan serve<b/> para rodar a aplicação </li>
     </ul>
 	<h2>Cridenciais:</h2><br>
-		<b>Utilizador normal:</b><br>
-			<b>Email:</b> admin@gmail.com<br>
-			<b>Password:</b> password<br>
-		<b>Utilizador normal:</b><br>
-			<b>Email:</b> normal.user@gmail.com<br>
-			<b>Password:</b> password<br>
+		  <b>Utilizador normal:</b><br>
+			    <b>Email:</b> admin@gmail.com<br>
+			    <b>Password:</b> password<br>
+		  <b>Utilizador normal:</b><br>
+			    <b>Email:</b> normal.user@gmail.com<br>
+			   <b>Password:</b> password<br>
   
