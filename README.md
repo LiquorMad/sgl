@@ -23,5 +23,11 @@ Qualquer pessoa pode entrar no site consultar, o veículo que esteja a sair, tod
     
     Permite um utilizador normal ou administrador fazer a gestão de links;    
  
-  <h2> Acesso </h2>
+  <h2> Baixar e executar o SGL </h2>
+    <ul>
+        <li>1. Executa o comando <b> git clone https://github.com/LiquorMad/sgl.git</b> para baixar o SGL;</li>
+        <li>2. Na raiz do projeto baixado, execute o camando <b>composer</b>;</li>
+        <li>3. Na raiz do projecto baixo o ficehiro com o nome  <b>sqlScript.sql</b>  e faz a importação no seu servidor de base de dados </li>
+        <li></li>
+    </ul>
   
