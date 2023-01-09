@@ -30,7 +30,7 @@ Qualquer pessoa pode entrar no site consultar, o veículo que esteja a sair, tod
         <li>3. Na raiz do projecto baixo o ficehiro com o nome  <b>sqlScript.sql</b>  e faz a importação no seu servidor de base de dados </li>
         <li>4. Execute o comando <b>php artisan serve<b/> para rodar a aplicação </li>
     </ul>
-	<h2>Cridenciais:</h2><br>
+	<h2>Cridenciais:</h2>
 		  <b>Utilizador normal:</b><br>
 			    <b>Email:</b> admin@gmail.com<br>
 			    <b>Password:</b> password<br>
