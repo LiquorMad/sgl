@@ -28,12 +28,11 @@ class AuthCheck
 
         $isLoggedIn ? $this->session->put('lastActivityTime', time()) :
         $this->session->forget('lastActivityTime');
-
         //se não esta logado não pode ter aceeso ao sistema
-        if(!session()->has('email') && ($request->path() !='login'  )){
+        if(!session()->has('email') && $request->path() !='login' && $request->path()!="/" ){
             return redirect('login')->with('error',['Você tem de estar logado']);
         //se esta logado não pode voltar a tela login
-        }if(session()->has('email') && ($request->path() == 'login' ) ){
+        }if(session()->has('email') && request()->is('login') || request()->is('/')  ){
             return back();
         }if(session('idTipoUtilizador')!='1' &&request()->is('users*')){
             return back()->with('error',['Você não tem permissão de acesso']);
