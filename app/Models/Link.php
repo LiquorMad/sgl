@@ -20,6 +20,11 @@ class Link extends Model
         'descricao',
         'idFonte'
     ];
+
+    public function fontes(){
+        return $this->belongsTo(Fonte::class);
+    }
+
     public static function  dataToUSer()
     {
         return DB::select('SELECT l.id AS id, l.endereco AS endereco ,l.descricao AS descricao,

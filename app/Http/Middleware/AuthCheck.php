@@ -22,14 +22,16 @@ class AuthCheck
             $this->session->put('lastActivityTime', time());
         elseif(time() - $this->session->get('lastActivityTime') > $this->timeout){
             $this->session->forget('lastActivityTime');
-            $cookie = cookie('intend', $isLoggedIn ? url()->current() : 'dashboard');
+            $cookie = cookie('intend', $isLoggedIn ? url()->current() : 'links');
             Auth::index();
         }
 
         $isLoggedIn ? $this->session->put('lastActivityTime', time()) :
         $this->session->forget('lastActivityTime');
         //se não esta logado não pode ter aceeso ao sistema
-        if(!session()->has('email') && $request->path() !='login' && $request->path()!="/" ){
+        if(!session()->has('email') 
+            && $request->path() !='login' 
+            && $request->path()!="/" ){
             return redirect('login')->with('error',['Você tem de estar logado']);
         //se esta logado não pode voltar a tela login
         }if(session()->has('email') && request()->is('login') || request()->is('/')  ){

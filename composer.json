@@ -13,7 +13,6 @@
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "laravel/ui": "^4.1",
-        "symfony/http-client": "^6.2",
         "weidner/goutte": "^2.2",
         "yoeunes/toastr": "^2.1"
     },

@@ -24,6 +24,10 @@ class User extends Authenticatable
 
     protected $dates = ['created_at','updated_at','deleted_at'];
 
+    public function tipoUtilizador(){
+        return $this->belongsTo(TipoUtilizador::class);
+    }
+
     public static function getIdTipoUserByEmail($email){
         $user = User::select('idTipoUtilizador')->where('email',$email)->first();
         return (!Assistent::isNull($user) ? $user->idTipoUtilizador : null);

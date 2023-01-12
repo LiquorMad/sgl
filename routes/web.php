@@ -11,13 +11,7 @@ use App\Http\Controllers\UserController;
 
 Route::group(['middleware'=>['AuthCheck']],function(){
 
-    Route::get('/', function () {
-        try {
-            return view('auth.login');
-        } catch (\Throwable $th) {
-            //throw $th;
-        }
-    });
+    Route::get('/',[LoginController::class,'index']);
 
     Route::resource('/login',LoginController::class);
 
