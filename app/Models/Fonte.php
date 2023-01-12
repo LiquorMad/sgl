@@ -20,7 +20,6 @@ class Fonte extends Model
     {
 
         $fonte = Fonte::find($id);
-        dd($id);
         $current_date_time = Carbon::now()->toDateTimeString();
         $fonte->deleted_at = $current_date_time;
         return $fonte->save();

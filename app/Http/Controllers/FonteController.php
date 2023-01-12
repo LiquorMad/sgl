@@ -10,11 +10,7 @@ use Illuminate\Http\Request;
 
 class FonteController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    
     public function index()
     {
         try {
@@ -27,22 +23,11 @@ class FonteController extends Controller
         }
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         //
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \App\Http\Requests\StoreFonteRequest  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(StoreFonteRequest $request)
     {
         //
@@ -60,33 +45,19 @@ class FonteController extends Controller
             if($sql){
                 session()->flash('success',['Registado com successo']);
                 return redirect()->back();
-               // return redirect()->action([FonteController::class, 'index']);
             }
         } catch (\Throwable $th) {
             session()->flash('error',['Falha no registo']);
             return redirect()->back();
-
-
         }
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Fonte  $fonte
-     * @return \Illuminate\Http\Response
-     */
+    
     public function show(Fonte $fonte)
     {
         //
     }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Fonte  $fonte
-     * @return \Illuminate\Http\Response
-     */
+  
     public function edit(Fonte $fonte)
     {
         //
@@ -98,13 +69,6 @@ class FonteController extends Controller
         }
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \App\Http\Requests\UpdateFonteRequest  $request
-     * @param  \App\Models\Fonte  $fonte
-     * @return \Illuminate\Http\Response
-     */
     public function update(UpdateFonteRequest $request, Fonte $fonte)
     {
         //
@@ -143,6 +107,4 @@ class FonteController extends Controller
             return redirect()->back();
         }
     }
-    
-    
 }
