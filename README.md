@@ -5,10 +5,10 @@ SGL (Sistema de Gestão de Links) - é um sistema de desenvolvido para fazer ger
 <h2> Funcionamento:  </h2>
 
 
-  Permite que o administrador faz gestão de utilizadores do sistema, os utilizadores (administrador/utilizador normal) do sistema podem registar registar fontes para recolher possiveis links e guardar no sistema. É permitido ao utilizdor fazer registo de links automático apartir de um web crawler existente no SGL. 
+ Permite que o administrador faz gestão de utilizadores do sistema, os utilizadores (administrador/utilizador normal) do sistema podem registar fontes para recolher possíveis links e guardar no sistema. É permitido ao utilizador fazer registo de links automático partir de um web crawler existente no SGL.
 
-  Permite que o fiscal do terminal faça registo dos veículos na fila com uma determinada rota, uma vez com o veículo registado na fila, qualquer utilizador pode acompanhar a vez de um veículo online, verificar qual o tempo médio de espera. Os fiscais que ficam nas estradas, conseguem verificar se um determinado veículo saiu ou não da fila, caso não tenha saído da fila pode ser levantada punições ao veículo. 
-Qualquer pessoa pode entrar no site consultar, o veículo que esteja a sair, todos os veículos na fila e verificar qual o tempo médio de espera de um determinado veículo, em caso de preferência por um determinado motorista pode verificar quando é que vai sair para fazer a sua viagem.
+
+Permite que o fiscal do terminal faça registo dos veículos na fila com uma determinada rota, uma vez com o veículo registado na fila, qualquer utilizador pode acompanhar a vez de um veículo online, verificar qual o tempo médio de espera. Os fiscais que ficam nas estradas, conseguem verificar se um determinado veículo saiu ou não da fila, caso não tenha saído da fila pode ser levantada punições ao veículo. Qualquer pessoa pode entrar no site consultar, o veículo que esteja a sair, todos os veículos na fila e verificar qual o tempo médio de espera de um determinado veículo, em caso de preferência por um determinado motorista pode verificar quando é que vai sair para fazer a sua viagem.
 
 <h2> Desenvolvimento:  </h2>
 
