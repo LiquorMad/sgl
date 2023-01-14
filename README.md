@@ -30,20 +30,19 @@ Qualquer pessoa pode entrar no site consultar, o veículo que esteja a sair, tod
 <img width="942" alt="gestao de link" src="https://user-images.githubusercontent.com/107926038/212053532-e12c5fc6-b08b-4eda-afe5-2dd05bd96da7.PNG">
 <h3>Página para gestão de Utilizadoress</h3>
 <img width="948" alt="gestao de utilizadores" src="https://user-images.githubusercontent.com/107926038/212053562-4f1a4a0f-2c32-4e18-86da-f45f24f212ec.PNG">
- 
-  <h2> Baixar e executar o SGL </h2>
+ <h2>Acesso ao SGL</h2>
+ <p> Para acessar ao SGL, voce pode, acessar o link <a href="https://managementlink.net/public/login">https://managementlink.net/public/login</a> ou  baixar e executar, seguindo os passos seguistes: </p>
+  <h3> Baixar e executar o SGL </h3>
     <ul>
         <li>1. Executa o comando <b> git clone https://github.com/LiquorMad/sgl.git</b> para baixar o SGL;</li>
         <li>2. Na raiz do projeto baixado, execute o camando <b>composer update</b>;</li>
         <li>3. Na raiz do projecto baixo o ficehiro com o nome  <b>sqlScript.sql</b>  e faz a importação no seu servidor de base de dados </li>
         <li>4. Execute o comando <b>php artisan serve<b/> para rodar a aplicação </li>
     </ul>
-	<h2>Cridenciais:</h2>
+	<h3>Cridênciais:</h3>
 		  <b>Utilizador normal:</b><br>
 			    <b>Email:</b> admin@gmail.com<br>
 			    <b>Password:</b> password<br>
 		  <b>Utilizador normal:</b><br>
 			    <b>Email:</b> normal.user@gmail.com<br>
-			   <b>Password:</b> password<br>
- <h2>Link de acesso: <a href="https://managementlink.net/public/login">https://managementlink.net/public/login</a></h2>
-  
+			   <b>Password:</b> password<br> 
