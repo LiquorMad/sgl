@@ -45,4 +45,5 @@ Qualquer pessoa pode entrar no site consultar, o veículo que esteja a sair, tod
 		  <b>Utilizador normal:</b><br>
 			    <b>Email:</b> normal.user@gmail.com<br>
 			   <b>Password:</b> password<br>
+ <h2>Link de acesso: <a href="https://managementlink.net/public/login">https://managementlink.net/public/login</a></h2>
   
