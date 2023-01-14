@@ -31,7 +31,7 @@ Permite que o fiscal do terminal faça registo dos veículos na fila com uma det
 <h3>Página para gestão de Utilizadoress</h3>
 <img width="948" alt="gestao de utilizadores" src="https://user-images.githubusercontent.com/107926038/212053562-4f1a4a0f-2c32-4e18-86da-f45f24f212ec.PNG">
  <h2>Acesso ao SGL</h2>
- <p> Para acessar ao SGL, voce pode, acessar o link <a href="https://managementlink.net/public/login">https://managementlink.net/public/login</a> ou  baixar e executar, seguindo os passos seguistes: </p>
+ <p> Para acessar ao SGL, voce pode, acessar o link <a href="https://managementlink.net/public/login">https://managementlink.net/public/login</a> ou  baixar e executar, seguindo os passos seguintes: </p>
   <h3> Baixar e executar o SGL </h3>
     <ul>
         <li>1. Executa o comando <b> git clone https://github.com/LiquorMad/sgl.git</b> para baixar o SGL;</li>
