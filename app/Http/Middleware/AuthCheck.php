@@ -30,8 +30,7 @@ class AuthCheck
         $this->session->forget('lastActivityTime');
         //se não esta logado não pode ter aceeso ao sistema
         if(!session()->has('email') 
-            && $request->path() !='login' 
-            && $request->path()!="/" ){
+            && $request->path() !='login'){
             return redirect('login')->with('error',['Você tem de estar logado']);
         //se esta logado não pode voltar a tela login
         }if(session()->has('email') && request()->is('login') || request()->is('/')  ){

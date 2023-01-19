@@ -19,7 +19,7 @@ class UserController extends Controller
             $tipoUtilizador=TipoUtilizador::all();
             return view('layouts.users.users',['users'=>$users,'tipoUtilizador'=>$tipoUtilizador]);
         } catch (\Throwable $th) {
-            session()->flash('error',['Erro ao carregar página'.$th->getMessage()]);
+            session()->flash('error',['Erro ao carregar página']);
             return redirect()->back();
             
         }
@@ -54,7 +54,7 @@ class UserController extends Controller
                // return redirect()->action([FonteController::class, 'index']);
             }
         } catch (\Throwable $th) {
-            session()->flash('error',['Falha no registo'.$th->getMessage()]);
+            session()->flash('error',['Falha no registo']);
             return redirect()->back();
         }
     }
@@ -83,7 +83,7 @@ class UserController extends Controller
             return view('layouts.users.update',['user'=>$user,'tipoUtilizador'=>$tipoUtilizador]);
          } catch (\Throwable $th) {
             //throw $th;
-            session()->flash('error',['Erro ao carregar página'.$th->getMessage()]);
+            session()->flash('error',['Erro ao carregar página']);
             return redirect()->back();
          }
          
@@ -111,7 +111,7 @@ class UserController extends Controller
                return redirect()->action([UserController::class, 'index']);
             }
         } catch (\Throwable $th) {
-            session()->flash('error',['Falha na atualização'.$th->getMessage()]);
+            session()->flash('error',['Falha na atualização']);
             return redirect()->back();
         }
     }
@@ -131,7 +131,7 @@ class UserController extends Controller
             return redirect()->back();
         } catch (\Throwable $th) {
             //throw $th;
-            session()->flash('error',['Erro ao eleminar'.$th->getMessage()]);
+            session()->flash('error',['Erro ao eleminar']);
             return redirect()->back();
         }
     }

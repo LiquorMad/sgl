@@ -27,6 +27,9 @@ class User extends Authenticatable
     public function tipoUtilizador(){
         return $this->hasOne(TipoUtilizador::class,'id','idTipoUtilizador');
     }
+    public function links(){
+        return $this->belongsToMany(User::class, 'users_links','idLink', 'idUtilizador');
+    }
 
     public static function getIdTipoUserByEmail($email){
         $user = User::select('idTipoUtilizador')->where('email',$email)->first();

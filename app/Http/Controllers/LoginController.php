@@ -48,7 +48,7 @@ class LoginController extends Controller
             }
 
         } catch (\Throwable $th) {
-            session()->flash('error',['Erro de login'.$th->getMessage()]);
+            session()->flash('error',['Erro de login']);
                 return redirect()->back();
         }
     }

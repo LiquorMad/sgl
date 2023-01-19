@@ -28,7 +28,7 @@ class Link extends Model
     public static function  dataToUSer()
     {
         return DB::select('SELECT l.id AS id, l.endereco AS endereco ,l.descricao AS descricao,
-            f.endereco AS fonte FROM links AS l, users as u, users_links as ul
+            f.endereco AS fonte FROM links AS l,
             fontes AS f WHERE l.idFonte=f.id AND l.deleted_at IS NULL');
     }
 

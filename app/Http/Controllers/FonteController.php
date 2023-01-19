@@ -18,7 +18,7 @@ class FonteController extends Controller
             $fontes=Fonte::all();
             return view('layouts.fonte.fonte')->with('fontes',$fontes);;
         } catch (\Throwable $th) {
-            session()->flash('error',['Erro ao carregar página'.$th->getMessage()]);
+            session()->flash('error',['Erro ao carregar página']);
             return redirect()->back();
         }
     }
@@ -103,7 +103,7 @@ class FonteController extends Controller
             return redirect()->back();
         } catch (\Throwable $th) {
             //throw $th;
-            session()->flash('error',['Erro ao eleminar'.$th->getMessage()]);
+            session()->flash('error',['Erro ao eleminar']);
             return redirect()->back();
         }
     }
