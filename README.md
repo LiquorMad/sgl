@@ -36,7 +36,14 @@ Permite que o fiscal do terminal faça registo dos veículos na fila com uma det
     <ul>
         <li>1. Executa o comando <b> git clone https://github.com/LiquorMad/sgl.git</b> para baixar o SGL;</li>
         <li>2. Na raiz do projeto baixado, execute o camando <b>composer update</b>;</li>
-        <li>3. Na raiz do projecto baixo o ficehiro com o nome  <b>sqlScript.sql</b>  e faz a importação no seu servidor de base de dados </li>
+        <li>Opção 1: </li>
+        <ul>
+            <li>3. Na raiz do projecto baixo o ficehiro com o nome  <b>sqlScript.sql</b>  e faz a importação no seu servidor de base de dados </li>
+        </ul>
+        <li>Opção 2: </li>
+        <ul>
+            <li>3. Execute a <b>migration</b> e <b>seeders</b>  </li>
+        </ul>
         <li>4. Execute o comando <b>php artisan serve<b/> para rodar a aplicação </li>
     </ul>
 	<h3>Cridênciais:</h3>
@@ -44,5 +51,5 @@ Permite que o fiscal do terminal faça registo dos veículos na fila com uma det
 			    <b>Email:</b> admin@gmail.com<br>
 			    <b>Password:</b> password<br>
 		  <b>Utilizador normal:</b><br>
-			    <b>Email:</b> normal.user@gmail.com<br>
+			    <b>Email:</b> normal@gmail.com<br>
 			   <b>Password:</b> password<br> 
