@@ -42,7 +42,13 @@ Permite que o fiscal do terminal faça registo dos veículos na fila com uma det
         </ul>
         <li>Opção 2: </li>
         <ul>
-            <li>3. Execute a <b>migration</b> e <b>seeders</b>  </li>
+            <li>3. Execute as <b>migrations</b> e <b>seeders</b> com os seguintes comandos sequencialmente:  </li>
+            <ul>
+                
+                <li>php artisan migrate:fresh</li>
+                <li>php artisan db:seed --class=UserSeeder</li>
+                <li>php artisan db:seed --class=FontesSeeder</li>
+            </ul>
         </ul>
         <li>4. Execute o comando <b>php artisan serve<b/> para rodar a aplicação </li>
     </ul>
