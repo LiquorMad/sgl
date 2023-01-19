@@ -15,13 +15,13 @@ Permite que o fiscal do terminal faça registo dos veículos na fila com uma det
 
   Para o desenvolvimento do SGL foi utilizado a linguagem PHP com o framework lavarel atuando na backend, e para o frontend foi utilizado o template AdminLTE3, para sistema de Gestão de Base de Dados foi utilizado a base de dados MySQL.
  
- <h2> Funcionalidades: </h2>
+<h2> Funcionalidades: </h2>
  
-    Permite um administrador fazer a gestão de utilizadores;
-    
-    Permite um utilizador normal ou administrador fazer a gestão de fontes;
-    
-    Permite um utilizador normal ou administrador fazer a gestão de links;    
+<li>Permite um administrador fazer a gestão de utilizadores;</li>
+
+<li>Permite um utilizador normal ou administrador fazer a gestão de fontes;</li>
+
+<li>Permite um utilizador normal ou administrador fazer a gestão de links;</li>
     
  <h2>Apresentação do sistema </h2>
  <h3>Página para gestão de Fontes</h3>
