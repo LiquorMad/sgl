@@ -31,7 +31,7 @@ class AuthCheck
         //se não esta logado não pode ter aceeso ao sistema
         if(!session()->has('email') 
             && $request->path() !='login'){
-            return redirect('login')->with('error',['Você tem de estar logado']);
+            return redirect('login')->with('info',['Inicie a sessão ']);
         //se esta logado não pode voltar a tela login
         }if(session()->has('email') && request()->is('login') || request()->is('/')  ){
             return back();
