@@ -25,7 +25,7 @@ class User extends Authenticatable
     protected $dates = ['created_at','updated_at','deleted_at'];
 
     public function tipoUtilizador(){
-        return $this->belongsTo(TipoUtilizador::class);
+        return $this->hasOne(TipoUtilizador::class,'id','idTipoUtilizador');
     }
 
     public static function getIdTipoUserByEmail($email){

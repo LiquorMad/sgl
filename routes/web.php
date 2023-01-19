@@ -21,6 +21,9 @@ Route::group(['middleware'=>['AuthCheck']],function(){
 
     Route::resource('/users',UserController::class);
 
+    Route::resource('/tipoUtilizador',UserController::class);
+
+
     Route::resource('/fontes',FonteController::class);
 
     Route::get('/links/auto/store',[LinkController::class,'autoStore'])->name('links.auto.store');

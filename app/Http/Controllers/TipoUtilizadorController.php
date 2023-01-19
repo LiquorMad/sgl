@@ -26,6 +26,9 @@ class TipoUtilizadorController extends Controller
     public function show(TipoUtilizador $tipoUtilizador)
     {
         //
+        if($tipoUtilizador){
+            echo "Tipo: {$tipoUtilizador->tipo}";
+        }
     }
     
     public function edit(TipoUtilizador $tipoUtilizador)

@@ -12,4 +12,7 @@ class TipoUtilizador extends Model
     public $timestamps = false;
     protected $table = 'tipo_utilizador';
 
+    public function user(){
+        return $this->belongsTo(TipoUtilizador::class, 'id','id');
+    }
 }

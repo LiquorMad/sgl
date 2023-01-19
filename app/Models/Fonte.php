@@ -16,6 +16,10 @@ class Fonte extends Model
 
     protected $table = 'fontes';
 
+    public function fontes(){
+        return $this->belongsTo(Link::class,'id','id');
+    }
+
     public static function deleteFonteById($id)
     {
 
